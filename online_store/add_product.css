@@ -1,0 +1,123 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Фоновый цвет страницы */
+body {
+    background-color: #f4f7fc;
+    color: #333;
+}
+
+/* Контейнер для формы */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Заголовок */
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Сообщения об ошибке и успехе */
+p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+p[style*="color: green;"] {
+    color: green;
+    text-align: center;
+}
+
+p[style*="color: red;"] {
+    color: red;
+    text-align: center;
+}
+
+/* Метки для полей */
+label {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 20px;
+    color: #555;
+}
+
+/* Поля ввода */
+input[type="text"], input[type="number"], input[type="file"], select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus, input[type="number"]:focus, select:focus, textarea:focus {
+    border-color: #5c6bc0;
+    outline: none;
+}
+
+/* Текстовое поле для описания */
+textarea {
+    min-height: 100px;
+}
+
+/* Кнопка отправки формы */
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #5c6bc0;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Кнопка при наведении */
+button:hover {
+    background-color: #3f51b5;
+}
+
+/* Стили для выбора файла */
+input[type="file"] {
+    padding: 6px;
+    font-size: 14px;
+}
+
+/* Стили для выпадающего списка */
+select {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Дизайн для формы с границами */
+form {
+    padding: 20px;
+}
+
+/* Стилизация футера */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #777;
+}
